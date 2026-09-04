@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.primeira {
+    background-color: #172554;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.segunda {
+    background-image: url("../img/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.terceira {
+    background-image: url("../img/padrao.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #222;
+    padding: 80px 40px;
+    text-align: center;
+    color: rgb(180, 203, 203);
+    
+
+}
+
+.capa {
+    background-image: url("../img/capa.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 20px;
+    text-align: center;
+}
+
+.capa h2,
+.capa p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}

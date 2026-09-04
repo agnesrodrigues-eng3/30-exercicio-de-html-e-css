@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block e Inline</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        .block {
+            background-color: #8fbdea;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .inline {
+            background-color: #ffb3b3;
+            padding: 5px;
+        }
+
+        h2 {
+            color: #030609;
+        }
+
+        strong {
+            background-color: #0d4989;
+        }
+
+        a {
+            color: #990000;
+        }
+        p{
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="block">
+        <h2>Elementos Block</h2>
+
+        <p>
+            Os elementos de bloco ocupam uma linha inteira da página.
+        </p>
+
+        <p>
+            Cada parágrafo começa em uma nova linha.
+        </p>
+    </div>
+
+
+
+    <div class="block">
+        <h2>Elementos Inline</h2>
+
+        <p>
+            Este texto possui
+            <span class="inline">um elemento span</span>
+            que permanece na mesma linha.
+        </p>
+
+        <p>
+            Também podemos usar
+            <strong>strong para destacar um texto</strong>
+            e criar um
+            <a href="https://www.google.com">link</a>
+            sem quebrar a linha.
+        </p>
+    </div>
+
+</body>
+
+</html>
+

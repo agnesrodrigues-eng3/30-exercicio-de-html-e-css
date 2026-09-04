@@ -1,0 +1,41 @@
+body {
+    background-color: #101010;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Altera a cor, o tamanho e o alinhamento do título. */
+
+h1 {
+    color: #55a629;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Altera a cor, o tamanho e o espaçamento do subtítulo. */
+
+h2 {
+    color: #1f5d15;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Altera o tamanho, o espaçamento entre linhas e o alinhamento dos parágrafos. */
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+/* 
+CSS externo: fica em um arquivo separado, como o style.css,
+e é conectado ao HTML usando a tag <link>.
+
+CSS interno: fica dentro da tag <style>, normalmente no <head> do HTML.
+
+CSS inline: fica diretamente dentro da tag HTML usando o atributo style.
+*/

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+section {
+    min-height: 350px;
+    padding: 80px 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.capa {
+    min-height: 600px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url("img/musica.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.capa p {
+    margin-bottom: 30px;
+}
+
+.capa a {
+    text-decoration: none;
+    color: white;
+    background-color: #7b2cff;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.cor {
+    background-color: #24104f;
+}
+
+.imagem {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+    ),
+    url("img/banda.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.repeticao {
+    background-color: #181818;
+    background-image: url("img/notas.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.repeticao h2,
+.repeticao p {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 15px 25px;
+    border-radius: 10px;
+}

@@ -1,0 +1,62 @@
+#cabeçalho{
+    margin: 0; 
+    padding-block: calc(10px);
+    background-color: aqua;
+    text-align: center;
+}
+
+h2,p {
+    text-align: center;
+}
+
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#agrupar{
+    display: flex;
+    justify-content: center;
+     
+}
+#curso1{
+    margin: 20px;
+    padding: 0px;
+    background-color: bisque;
+    width: 400px;
+    border-radius: 10px; 
+    border: 6px solid rgb(173, 173, 175);
+  
+}
+#curso2{
+    margin: 20px;
+    padding: 40px;
+    background-color: bisque;
+    width: 400px;
+    border-radius: 10px; 
+    border: 6px solid rgb(173, 173, 175);
+    
+}
+#curso3{
+    margin: 0px;
+    padding: 40px;
+    background-color: bisque;
+    width: 400px;
+    border-radius: 10px; 
+    border: 6px solid rgb(173, 173, 175);
+    
+}
+
+#curso1:hover,
+#curso2:hover,
+#curso3:hover {
+    background-color: rgb(199, 215, 228);
+    transform: translateY(-2px);
+}
+
+/*A margin é a distância e o espaçamento por fora FORA da caixa, criando espaço entre o elemento e outros elementos.Como o curso3, coloquei margin 0 e ele ficou maior que os outros elementos, ficando mais perto do cabeçalho e não tendo uma certa distância do lado direito, estando quase se fundido, diferente do curso1 que mantem uma diferença visível do lado esquerdo, do cabeçalho e do curso2 ao lado.*/
+/*A paddin é o espaço por dentro DENTRO da caixa, criando espaço entre o conteúdo e a borda. Como podemos observar no curso1 a falta de númeração do padding, faz com que as infomações que estão por dento dele não esteja alocadas com a distância igual, diferente do curso2.Ou seja: mesmo com padding: 0 no card, cada elemento dentro dele ainda carrega seu próprio espaçamento — e esses espaçamentos são diferentes entre si. Por isso o resultado visual parece "desigual": não é o padding do card que está desigual, são as margens de cada filho que são diferentes.*/
+

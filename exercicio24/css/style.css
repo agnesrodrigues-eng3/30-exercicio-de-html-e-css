@@ -1,0 +1,44 @@
+body {
+    background-color: #101010;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: #8e44ad;
+    text-align: center;
+}
+
+p {
+    color: #cccccc;
+}
+
+h2, h3 {
+    color: #3498db;
+}
+
+ul {
+    background-color: #1c1c1c;
+    padding: 20px 40px;
+}
+
+.cartao {
+    background-color: #222222;
+    border: 2px solid #8e44ad;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#destaque {
+    background-color: #181818;
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#destaque p {
+    color: #8e44ad;
+    font-weight: bold;
+}

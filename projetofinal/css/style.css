@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+background-color: #e0e0cf;
+color: #17251f;
+font-family: 'Open Sans', Arial, sans-serif;
+line-height: 1.6;
+}
+
+.cabecalho {
+background-image: url("../img/petsinicial.jpg");
+background-position: center;
+background-size: cover;
+padding: 70px 20px;
+text-align: center;
+
+}
+
+.cabecalho h1 {
+color: white;
+font-family: 'Poppins', Arial, sans-serif;
+font-weight: 700;
+font-size: 38px;
+background-color: rgba(34, 58, 49, 0.9);
+padding: 30px;
+border-radius: 15px;
+max-width: 1000px; /*Impede que o título fique enorme em telas muito grandes.*/
+margin: auto; /*Centraliza o elemento horizontalmente quando existe uma largura máxima/largura definida.*/
+
+}
+
+
+.cabecalho p {
+color: white;
+background-color: rgba(34, 58, 49, 0.9);
+padding: 10px 20px;
+margin: 15px auto 0;
+border-radius: 10px;
+max-width: 700px;
+text-align: center;
+}
+
+#menu {
+text-align: center;
+padding: 20px;
+background-color: #223a31;
+}
+
+#menu a {
+display: inline-block;
+background-color: #48a782;
+color: white;
+padding: 10px 35px;
+margin: 5px;
+border-radius: 8px;
+text-decoration: none; /*Remove o sublinhado padrão dos links.*/
+font-family: 'Poppins', Arial, sans-serif; 
+font-weight: 600;
+}
+
+#menu a:hover {
+background-color: #356f58;
+}
+
+main {
+max-width: 1100px; /*Impede que o conteúdo fique muito espalhado.*/
+margin: 30px auto; /*30px → cima e baixo auto → esquerda e direita*/
+padding: 0 20px;
+}
+
+section {
+background-color: white;
+margin-bottom: 30px; /*Cria espaço entre uma seção e outra.*/
+padding: 30px;
+border-radius: 15px;
+border-left: 6px solid #48a782; /*Cria uma linha verde na esquerda.*/
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /*Cria uma sombra ao redor da seção. Isso dá a sensação de que o card está separado do fundo.*/
+}
+
+section h2 {
+color: #223a31;
+font-family: 'Poppins', Arial, sans-serif;
+font-weight: 600;
+margin-bottom: 15px; /*Cria espaço entre o título e o conteúdo abaixo.*/
+}
+
+section p {
+margin-bottom: 15px;
+text-align: justify;
+}
+
+ul {
+padding-left: 25px; /*Move a lista um pouco para a direita.*/
+}
+
+li {
+margin-bottom: 10px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse; /*Faz as bordas da tabela ficarem juntas.*/
+margin-top: 20px; /*Cria espaço acima da tabela.*/
+}
+
+th,
+td {
+border: 1px solid #223a31;
+padding: 12px;
+text-align: center;
+}
+
+th {
+background-color: #223a31;
+color: white;
+}
+
+tr:nth-child(even) {
+background-color: #edf2ee;
+}
+
+button,
+input[type="submit"] {
+background-color: #48a782;
+color: white;
+border: none;
+padding: 12px 25px;
+margin: 8px 0 20px;
+border-radius: 8px;
+cursor: pointer;
+font-family: 'Poppins', Arial, sans-serif;
+font-weight: 600; /*deixa o texto em negrito*/
+}
+
+button:hover,
+input[type="submit"]:hover {
+background-color: #356f58;
+transform: translateY(-2px);
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-top: 15px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+input,
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #9aa9a0;
+border-radius: 8px;
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+
+textarea {
+resize: vertical; /*O usuário pode aumentar o campo para cima/baixo, mas não para os lados.
+Isso evita que o formulário fique desorganizado.*/
+}
+
+footer {
+background-color: #223a31;
+color: white;
+text-align: center;
+padding: 25px;
+margin-top: 40px;
+}
+
+footer p {
+text-align: center;
+}
+
+@media (max-width: 700px) {
+
+
+.cabecalho h1 {
+    font-size: 28px;
+    padding: 20px;
+}
+
+#menu a {
+    display: block;
+    margin: 8px auto;
+    max-width: 250px;
+}
+
+main {
+    padding: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+table {
+    font-size: 13px;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+
+}
+
+
+
